@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
     public void ShowNotiText(int n)
     {
         PlayerScore += n;
-        notiText.text = $"Pins have down x{playerScore}\nTotal Score is {playerScore}";
+        notiText.text = $"Pins have down x{playerScore}\nTotal Score is {playerScore*10}";
     }
     public void ShowString(string s)
     {
